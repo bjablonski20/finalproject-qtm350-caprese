@@ -16,9 +16,9 @@ All audio files and text files are saved under the "Input Data" folder. Inside o
 
 ## Demo Solution and Recreation 
 This section will demonstrate how to recreate the solution shown in the notebooks. 
-1. Clone this Github Repo: This can be done by running the following code in the terminal of your machine. 
+1. Clone this Github Repo: This can be done by running the following code in the command line for your machine or Sagemaker instance. 
 
-`!gh repo clone bjablonski20/finalproject-qtm350-caprese`
+`git clone bjablonski20/finalproject-qtm350-caprese`
 
 2. Provide your Sagemaker Execution IAM Role with AmazonTranscribeFullAccess Role: This can be done in one of two ways.
     - Go to the IAM role that you wish to alter. Click attach policy, and search for AmazonTranscribeFullAccess. Click on the policy and attach it. 
