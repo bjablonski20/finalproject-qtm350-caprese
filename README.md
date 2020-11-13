@@ -24,7 +24,8 @@ This section will demonstrate how to recreate the solution shown in the notebook
     - Go to the IAM role that you wish to alter. Click attach policy, and search for AmazonTranscribeFullAccess. Click on the policy and attach it. 
     - Alternatively, you can attach the following JSON policy to your Sagemaker Execution Role. This JSON is also saved in the Github Repo under the IAMPolicies folder. 
     
-`{
+`
+{
 
     "Version": "2012-10-17",
     
@@ -64,7 +65,8 @@ This section will demonstrate how to recreate the solution shown in the notebook
         
     ]
     
-}`
+}
+`
 
 3. Run all code cells in the QTM350_FinalProject_BlogPost.ipynb notebook. If you do not want to create your own transcribe jobs, you can skip the third code cell in the notebook.
 
