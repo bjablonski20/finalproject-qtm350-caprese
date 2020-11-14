@@ -68,5 +68,11 @@ This section will demonstrate how to recreate the solution shown in the notebook
 }
 `
 
-3. Run all code cells in the QTM350_FinalProject_BlogPost.ipynb notebook. If you do not want to create your own transcribe jobs, you can skip the third code cell in the notebook.
+3. Run the code cells in the QTM350_FinalProject_BlogPost.ipynb notebook. If you do not want to create your own transcribe jobs, you can skip the third code cell in the notebook. If you do want to create your own transcribe jobs, follow the instructions below. 
+
+- Create an S3 Bucket. Copy its name.
+
+- Replace the OutputBucketName in third code cell. This will create and save transcribe jobs to your S3 Bucket. 
+
+
 
