@@ -14,6 +14,8 @@ All audio files and text files are saved under the "Input Data" folder. Inside o
 - Doc 7: This document is an excerpt from a [research paper](https://www.researchgate.net/publication/339500868_Applications_of_Topic_Models) titled "Applications of Topic Models".
 - Doc 8: This document is three [tweets](https://twitter.com/JoeBiden?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) from Joe Biden. 
 
+The transcripts for each audio file from Amazon Transcribe are in the "Output Data" folder. Inside of this folder, these files are segemented by document number. 
+
 ## Demo Solution and Recreation 
 This section will demonstrate how to recreate the solution shown in the notebooks. 
 1. Clone this Github Repo: This can be done by running the following code in a code cell in your Jupyter Notebook in a Sagemaker instance. 
