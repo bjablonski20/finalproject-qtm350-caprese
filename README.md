@@ -1,5 +1,5 @@
 # Assessing Accuracy of Amazon Transcribe at Increasing Speech Speeds: Demo
-This demo solution and Github repo demonstrates how to test the accuracy of Amazon Transcribe at increasing levels of speech speed. It consists of both the data used in this solution as well as the notebook and code to recreate the solution 
+This demo solution and Github repo demonstrates how to test the accuracy of Amazon Transcribe at increasing levels of speech speed. It consists of both the data used in this solution as well as the notebook and code to recreate the solution. The blog post can also be found in html format at the following [link](http://qtm350finalproject-hostingbucket.s3-website-us-east-1.amazonaws.com)
 
 ## Data
 For this example, 8 different texts are read. Each text is read and recorded 10 different times at 5 different speeds: 75 words per minute, 125 words per minute, 175 words per minute, 225 words per minute, and 275 words per minute. 
